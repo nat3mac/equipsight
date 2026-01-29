@@ -153,8 +153,10 @@ section > .section-heading, section > .splash-heading {
   flex: 1 0 8rem;
 }
 
-.benefits-image {
-  width: 8rem;
+@media (min-width: 1024px) {
+  .benefits-image {
+    width: 8rem;
+  }
 }
 
 .benefits-item-heading {
