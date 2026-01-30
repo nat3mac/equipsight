@@ -82,10 +82,10 @@
 <section class="contact">
 	<h2 class="section-heading">Contact Us</h2>
 	<p class="copy">For questions, inquiries, or more, please use the form below:</p>
-	<form name="Contact" id="contact" method="POST" data-netlify="true" class="contact-form">
+	<form class="contact-form" id="contact" name="Contact" method="POST" netlify>
 		<div class="input-group">
 			<input type="text" id="name" name="Name" placeholder="Name">
-			<label for="name">Name</label>
+			<label for="name">Full Name</label>
 		</div>
 		<div class="input-group">
 			<input type="email" id="email" name="Email" placeholder="Email" required>
@@ -94,10 +94,6 @@
 		<div class="input-group">
 			<textarea id="message" name="Message" placeholder="Message" required></textarea>
 			<label for="message">Message</label>
-		</div>
-		<div class="input-group">
-			<input type="file" id="attachment" name="Attachment">
-			<label for="attachment">Attach Files</label>
 		</div>
 		<button type="submit" class="button">Send</button>
 	</form>
